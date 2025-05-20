@@ -9,13 +9,15 @@ This project demonstrates how to build a simple REST API for managing books usin
 Before installing dependencies, create and activate a virtual environment.
 
 Follow the instructions:
-```bash
-python3 -m venv fastapienv
-source fastapienv/bin/activate
+
+    Step 1: python3 -m venv fastapienv
+
+    Step 2: source fastapienv/bin/activate
 
 ## 2. Install dependencies
 
 Inside the project, run the following CLI commands.
+
     1. pip3 install fastapi
 
     2. pip3 install "uvicorn[standard]"
